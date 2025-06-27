@@ -1,11 +1,13 @@
 import { Toaster } from "./components/ui/sonner";
 import Navbar from "./components/Navbar";
 import CardInfo from "./components/CardInfo";
+import MovingCards from "./components/MovingCards";
 
 function App() {
   return (
     <>
       <Navbar />
+      <MovingCards />
       <div className="flex justify-center gap-8 flex-wrap my-10 ">
         <CardInfo
           title="Buy Electronics"
